@@ -580,6 +580,8 @@ Rules:
 		-ConquestVictoryConditions:
 		MissionObjectives:
 			EarlyGameOver: true
+		NodColorPalette:
+			Race: nod
 	World:
 		-CrateSpawner:
 		-SpawnMPUnits:
@@ -592,18 +594,26 @@ Rules:
 		Tooltip:
 			GenericVisibility: Enemy
 			ShowOwnerRow: false
+		RenderUnit:
+			PlayerPalette: playerSecondary
 	^Tank:
 		Tooltip:
 			GenericVisibility: Enemy
 			ShowOwnerRow: false
+		RenderUnit:
+			PlayerPalette: playerSecondary
 	^Helicopter:
 		Tooltip:
 			GenericVisibility: Enemy
 			ShowOwnerRow: false
+		RenderUnit:
+			PlayerPalette: playerSecondary
 	^Infantry:
 		Tooltip:
 			GenericVisibility: Enemy
 			ShowOwnerRow: false
+		RenderInfantry:
+			PlayerPalette: playerSecondary
 	^Plane:
 		Tooltip:
 			GenericVisibility: Enemy
@@ -624,6 +634,19 @@ Rules:
 			GenericVisibility: Enemy, Ally, Neutral
 			GenericStancePrefix: false
 			ShowOwnerRow: false
+		RenderUnit:
+			PlayerPalette: playerSecondary
+	MCV:
+		RenderUnit:
+			PlayerPalette: player
+	MCV.Husk:
+		RenderUnit:
+			PlayerPalette: player
+	HARV:
+		-RenderUnit
+	HARV.Husk:
+		RenderUnit:
+			PlayerPalette: player
 	HQ:
 		AirstrikePower:
 			Prerequisites: ~disabled

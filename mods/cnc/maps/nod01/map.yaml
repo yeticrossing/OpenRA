@@ -281,6 +281,9 @@ Rules:
 		-ConquestVictoryConditions:
 		MissionObjectives:
 			EarlyGameOver: true
+		NodColorPalette:
+			Color: 220,30,220
+			Race: nod
 	World:
 		-CrateSpawner:
 		-SpawnMPUnits:
@@ -302,6 +305,8 @@ Rules:
 		Tooltip:
 			GenericVisibility: Enemy
 			ShowOwnerRow: false
+		RenderUnit:
+			PlayerPalette: playerSecondary
 	^Tank:
 		Tooltip:
 			GenericVisibility: Enemy
@@ -314,6 +319,8 @@ Rules:
 		Tooltip:
 			GenericVisibility: Enemy
 			ShowOwnerRow: false
+		RenderInfantry:
+			PlayerPalette: playerSecondary
 	^Plane:
 		Tooltip:
 			GenericVisibility: Enemy

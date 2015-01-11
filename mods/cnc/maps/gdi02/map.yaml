@@ -752,10 +752,13 @@ Rules:
 		-ConquestVictoryConditions:
 		MissionObjectives:
 			EarlyGameOver: true
+		NodColorPalette:
 	^Vehicle:
 		Tooltip:
 			GenericVisibility: Enemy
 			ShowOwnerRow: false
+		RenderUnit:
+			PlayerPalette: playerSecondary
 	^Tank:
 		Tooltip:
 			GenericVisibility: Enemy
@@ -768,6 +771,8 @@ Rules:
 		Tooltip:
 			GenericVisibility: Enemy
 			ShowOwnerRow: false
+		RenderInfantry:
+			PlayerPalette: playerSecondary
 	^Plane:
 		Tooltip:
 			GenericVisibility: Enemy
