@@ -581,7 +581,10 @@ Rules:
 		MissionObjectives:
 			EarlyGameOver: true
 		NodColorPalette:
+<<<<<<< HEAD
 			Race: nod
+=======
+>>>>>>> FETCH_HEAD
 	World:
 		-CrateSpawner:
 		-SpawnMPUnits:
@@ -634,6 +637,7 @@ Rules:
 			GenericVisibility: Enemy, Ally, Neutral
 			GenericStancePrefix: false
 			ShowOwnerRow: false
+<<<<<<< HEAD
 		RenderUnit:
 			PlayerPalette: playerSecondary
 	MCV:
@@ -647,6 +651,13 @@ Rules:
 	HARV.Husk:
 		RenderUnit:
 			PlayerPalette: player
+=======
+	MCV:
+		RenderUnit:
+			PlayerPalette: player
+	HARV:
+		-RenderUnit
+>>>>>>> FETCH_HEAD
 	HQ:
 		AirstrikePower:
 			Prerequisites: ~disabled
